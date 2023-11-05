@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilisimos.css">
+    <title>TRAJES MUJER</title>
+</head>
+<nav id="menu">
+    <ul>
+        <a href="trajes.html"><li>Se autentica y original con nuestra nueva coleccion</li></a>
+       
+    </ul>
+</nav>
+
+<br>
+<br>
+<a href="SUMAQ TIK'A.html">
+<br><img src="imagenes/portadamujer.png" width="1000" height="600" style="float: right;"></a>
+<section id="seccion">
+    <br>
+<br>
+
+<header>
+    <h1><img src="imagenes/izquierda.jpg"width="180" height="150">Trajes de Mujer<img src="imagenes/derecha.jpg" width="180" height="150"></h1>
+</header> 
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/imagen1.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion">CONJUNTO SURPHUY NARANJA</p>
+                    <span class="precio">$ 150</span>
+                </div>
+            
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/imagen6.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion" id>VESTIDO ELEGANTE 3/4 </p>
+                    <span class="precio">$ 350</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/imagen3.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion">CONJUNTO EJECUTIVO</p>
+                    <span class="precio">$ 450</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/imagen4.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion">VESTIDO LARGO ELEGANTE</p>
+                    <span class="precio">$ 800</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/imagen5.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion">TRAJE AMARILLO 4PZ </p>
+                    <span class="precio">$ 850</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/imagen2.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion">TRAJE ROSA 5PZ</p>
+                    <span class="precio">$ 1050</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/imagen 7.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion">TRAJE BORDADO DOBLE </p>
+                    <span class="precio">$ 1150</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/imagen8.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion">TRAJE QUIÑOTEÑO</p>
+                    <span class="precio">$ 950</span>
+                </div>
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="imagenes/imagen1.jpg" alt="" id="img">
+                <h2 id="modelo">CONJUNTO SURPHUY NARANJA</h2>
+                <p id="descripcion">Descripción Modelo 1</p>
+                <span class="precio" id="precio">$ 130</span>
+
+                <div class="fila">
+                    
+                    <button>COMPRAR</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+    </section>
+
+    <script src="trajes.js"></script>
+    <br>
+        <img src="imagenes/newpie.png" alt="" width="1500" height="300">
+</body>
+</html>

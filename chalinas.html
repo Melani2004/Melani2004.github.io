@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chalinas.css">
+    <title>CHALINAS</title>
+</head>
+<nav id="menu">
+    <ul>
+        <a href="chalinas.html"><li>Llevamos tradicion en cada diseño</li></a>
+       
+    </ul>
+</nav>
+
+<br>
+<br>
+<a href="SUMAQ TIK'A.html">
+<br><img src="imagenes/portada5.png" width="820" height="600" style="float: right;"></a>
+<section id="seccion">
+    <br>
+<br>
+<header>
+    <h1><img src="imagenes/izquierda.jpg"width="180" height="150">Chalinas Chumbivilcanas<img src="imagenes/derecha.jpg" width="180" height="150"></h1>
+</header> 
+</header> 
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                
+                
+                
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/chalina1.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion">CHALINA DE HILO (NEGRO)</p>
+                    <span class="precio">$ 110</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/chalina4.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion">CHALINA DE HILO(VICUÑA)</p>
+                    <span class="precio">$ 125</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/chalina3.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion">CHALINA DE LANA TEJIDO A MANO</p>
+                    <span class="precio">$ 190</span>
+                </div>
+            
+            </div>
+        </div>
+           
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="imagenes/imagen1.jpg" alt="" id="img">
+                <h2 id="modelo">CONJUNTO SURPHUY NARANJA</h2>
+                
+                <p id="descripcion">Descripción Modelo 1</p>
+                <span class="precio" id="precio">$ 130</span>
+
+                <div class="fila">
+                    
+                    <button>COMPRAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="chalinas.js"></script>
+    <br>
+        <br>
+        <img src="imagenes/newpie.png" alt="" width="1500" height="300">
+</body>
+</html>

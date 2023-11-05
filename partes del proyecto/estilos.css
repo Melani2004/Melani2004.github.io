@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1{
+    font: bold 80px mifuente, sans-serif;
+    text-align: center;
+}
+@font-face {
+    font-family: 'mifuente';
+    src: url(fuentes/betterfly.otf);
+}
+#agrupar{
+   
+   margin: 10px auto;
+   padding: 10px auto;
+    text-align: center;
+   
+}
+
+header{
+    
+    padding: 20px;
+ 
+    
+}
+
+#menu{
+    background: #f6b8ad;
+    margin:1px 0 1px 0;
+    border-radius: 5px;
+  
+    
+}
+#menu ul{
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   
+}
+#menu ul a li{
+    padding: 15px 25px;
+   
+    list-style: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font: bold 30px fuente, sans-serif;
+    text-decoration:none;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+@font-face {
+    font-family: 'fuente';
+    src: url(fuentes/betterfly.otf);
+    
+}
+#menu ul li:hover{
+    background: rgb(236, 172, 172);
+    color: rgb(0, 0, 0);
+    letter-spacing: 7px;
+    transition: 0.6s;
+}
+
+#seccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+article figure img{
+    border-radius: 10px;
+    margin: 4px;
+    padding: 3px;
+    
+
+}
+.contenedor2{
+     background: #f3cdc6;
+    
+    width: 1100px;
+    height: 855px;
+    margin: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+}
+h2{
+    font: bold 32px lafuente, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+@font-face {
+    font-family: 'lafuente';
+    src: url(fuentes/betterfly.otf);
+}
+.cat1{
+    padding: 5px;
+    filter: saturate(180%);
+ 
+    }
+.cat2{
+    padding: 5px;
+    
+    filter: saturate(180%);
+}
+.cat3{
+    padding: 5px;
+    filter: saturate(180%);
+}
+.cat4{
+    padding: 5px;
+    filter: saturate(180%);
+}

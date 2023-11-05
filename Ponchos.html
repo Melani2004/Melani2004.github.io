@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ponchos.css">
+    <title>PONCHOS</title>
+</head>
+<nav id="menu">
+    <ul>
+        <a href="Ponchos.html"><li>El coraje y la valentia de un chumbivilcano</li></a>
+       
+    </ul>
+</nav>
+
+<br>
+<br>
+<a href="SUMAQ TIK'A.html">
+<br><img src="imagenes/portada4.png" width="800" height="600" style="float: right;"></a>
+<section id="seccion">
+    <br>
+<br>
+<header>
+    <h1><img src="imagenes/izquierda.jpg"width="180" height="150">Ponchos Chumbivilcanos<img src="imagenes/derecha.jpg" width="180" height="150"></h1>
+</header> 
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/poncho1.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion">PONCHO DE HILO COLOR VICUÑA </p>
+                    <span class="precio">$ 950</span>
+                </div>
+            
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagenes/poncho2.jpg" width="280" height="300" aling="left" >
+                    </div>
+                    <p class="descripcion" id>PONCHO DE LANA ROJO INTENSO </p>
+                    <span class="precio">$ 1020</span>
+                </div>
+                
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="imagenes/poncho4.jpg" alt="" id="img">
+                <h2 id="modelo">NIKE MODEL 1</h2>
+                <p id="descripcion">Descripción Modelo 1</p>
+
+                <span class="precio" id="precio">$ 130</span>
+
+                <div class="fila">
+                    
+                    <button>COMPRAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="ponchos.js"></script>
+    <br>
+    <br>
+    <img src="imagenes/newpie.png" alt="" width="1500" height="300">
+</body>
+</html>
